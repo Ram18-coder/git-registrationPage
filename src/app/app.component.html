@@ -1,0 +1,10 @@
+<div>
+  <form action="" [formGroup]="register" (ngSubmit)="user()">
+    <input type="text" placeholder="FirstName" formControlName="fname"><br>
+    <input type="text" placeholder="lastName" formControlName="lname"><br>
+    <input type="password" placeholder="password" formControlName="pswd"><br>
+    <input type="password" placeholder="Confirm Password" formControlName="pswd1"><br>
+    <input type="email" placeholder="enter your Mailid" formControlName="gmail"><br><br>
+    <button>Register</button>
+  </form>
+</div>
